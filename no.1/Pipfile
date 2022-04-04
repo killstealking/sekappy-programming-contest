@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pysimplegui = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+gui_combo = "python gui_mulligan.py"
